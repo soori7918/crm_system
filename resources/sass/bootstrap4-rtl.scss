@@ -1,0 +1,437 @@
+body {
+  direction: rtl;
+  font-family:IRANSans-web;
+  text-align: right;
+}
+.fa-num {
+  font-family:IRANSans-web-fa;
+}
+.input-group > .input-group-prepend > .btn,
+.input-group > .input-group-prepend > .input-group-text,
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text,
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
+  border-radius: 0 $border-radius $border-radius 0;
+}
+.input-group > .input-group-append > .btn,
+.input-group > .input-group-append > .input-group-text,
+.input-group > .input-group-prepend:not(:first-child) > .btn,
+.input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  border-radius: $border-radius 0 0 $border-radius;
+}
+.input-group > .form-control:not(:last-child),
+.input-group > .custom-select:not(:last-child) {
+  border-radius: 0 $border-radius $border-radius 0;
+}
+.input-group > .form-control:not(:first-child),
+.input-group > .custom-select:not(:first-child) {
+  border-radius: $border-radius 0 0 $border-radius;
+}
+.input-group > .form-control:not(:last-child):not(:first-child),
+.input-group > .custom-select:not(:last-child):not(:first-child) {
+  border-radius: 0;
+}
+.input-group > .form-control + .form-control,
+.input-group > .form-control + .custom-select,
+.input-group > .form-control + .custom-file,
+.input-group > .custom-select + .form-control,
+.input-group > .custom-select + .custom-select,
+.input-group > .custom-select + .custom-file,
+.input-group > .custom-file + .form-control,
+.input-group > .custom-file + .custom-select,
+.input-group > .custom-file + .custom-file {
+  margin-left:0;
+  margin-right:-1px;
+}
+.input-group-append {
+  margin-left: 0;
+  margin-right: -1px;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:last-child) > .btn  {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.btn-group > .btn:not(:first-child), .btn-group > .btn-group:not(:first-child) > .btn {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):not(:first-child),
+.btn-group:not(:first-child):not(:last-child) > .btn{
+  border-radius:0;
+}
+
+.nav {
+  padding-right:0;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.form-check {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+.form-check-input {
+  margin-right: -1.25rem;
+  margin-left: 0;
+}
+
+@media (min-width: 576px) {
+  .offset-sm-0 {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .offset-sm-1 {
+    margin-right: 8.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-sm-2 {
+    margin-right: 16.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-sm-3 {
+    margin-right: 25%;
+    margin-left: auto;
+  }
+
+  .offset-sm-4 {
+    margin-right: 33.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-sm-5 {
+    margin-right: 41.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-sm-6 {
+    margin-right: 50%;
+    margin-left: auto;
+  }
+
+  .offset-sm-7 {
+    margin-right: 58.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-sm-8 {
+    margin-right: 66.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-sm-9 {
+    margin-right: 75%;
+    margin-left: auto;
+  }
+
+  .offset-sm-10 {
+    margin-right: 83.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-sm-11 {
+    margin-right: 91.66666667%;
+    margin-left: auto;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .offset-md-0 {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .offset-md-1 {
+    margin-right: 8.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-md-2 {
+    margin-right: 16.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-md-3 {
+    margin-right: 25%;
+    margin-left: auto;
+  }
+
+  .offset-md-4 {
+    margin-right: 33.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-md-5 {
+    margin-right: 41.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-md-6 {
+    margin-right: 50%;
+    margin-left: auto;
+  }
+
+  .offset-md-7 {
+    margin-right: 58.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-md-8 {
+    margin-right: 66.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-md-9 {
+    margin-right: 75%;
+    margin-left: auto;
+  }
+
+  .offset-md-10 {
+    margin-right: 83.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-md-11 {
+    margin-right: 91.66666667%;
+    margin-left: auto;
+  }
+}
+
+.custom-control {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+.custom-control-label::before, .custom-control-label::after {
+  left: auto;
+  right: -1.5rem;
+}
+
+
+
+@media (min-width: 992px) {
+  .offset-lg-0 {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .offset-lg-1 {
+    margin-right: 8.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-lg-2 {
+    margin-right: 16.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-lg-3 {
+    margin-right: 25%;
+    margin-left: auto;
+  }
+
+  .offset-lg-4 {
+    margin-right: 33.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-lg-5 {
+    margin-right: 41.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-lg-6 {
+    margin-right: 50%;
+    margin-left: auto;
+  }
+
+  .offset-lg-7 {
+    margin-right: 58.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-lg-8 {
+    margin-right: 66.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-lg-9 {
+    margin-right: 75%;
+    margin-left: auto;
+  }
+
+  .offset-lg-10 {
+    margin-right: 83.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-lg-11 {
+    margin-right: 91.66666667%;
+    margin-left: auto;
+  }
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+  .offset-xl-0 {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .offset-xl-1 {
+    margin-right: 8.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-xl-2 {
+    margin-right: 16.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-xl-3 {
+    margin-right: 25%;
+    margin-left: auto;
+  }
+
+  .offset-xl-4 {
+    margin-right: 33.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-xl-5 {
+    margin-right: 41.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-xl-6 {
+    margin-right: 50%;
+    margin-left: auto;
+  }
+
+  .offset-xl-7 {
+    margin-right: 58.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-xl-8 {
+    margin-right: 66.66666667%;
+    margin-left: auto;
+  }
+
+  .offset-xl-9 {
+    margin-right: 75%;
+    margin-left: auto;
+  }
+
+  .offset-xl-10 {
+    margin-right: 83.33333333%;
+    margin-left: auto;
+  }
+
+  .offset-xl-11 {
+    margin-right: 91.66666667%;
+    margin-left: auto;
+  }
+}
+
+.dropdown-menu {
+  text-align: right;
+}
+
+.navbar-nav {
+  padding-right:0;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+.page-item:first-child .page-link {
+  margin-left: 0;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.pagination {
+  .page-link {
+    margin-left:auto;
+    margin-right:-1px;
+  }
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem auto -1rem -1rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: 0;
+  margin-left: .25rem;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: 0;
+  margin-right: .25rem;
+}
+
+.alert-dismissible {
+  padding-left: 3.85rem;
+  padding-right: 1.25rem;
+}
+
+.alert-dismissible .close {
+  right: auto;
+  left: 0;
+}
+
+.pagination {
+  padding-left: 0;
+  padding-right: 0;
+}
+.list-group {
+  padding-right: 0;
+}
+
+.list-unstyled {
+  padding-right:0;
+}
+
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+  background-position: center left calc(0.4em + 0.1875rem);
+  padding-left: calc(1.6em + 0.75rem);
+  padding-right: 0.75rem;
+}
+.was-validated textarea.form-control:invalid, textarea.form-control.is-invalid {
+  background-position: top calc(0.4em + 0.1875rem) left calc(0.4em + 0.1875rem);
+  padding-left: calc(1.6em + 0.75rem);
+  padding-right: 0.75rem;
+}
+.was-validated .form-control:valid, .form-control.is-valid {
+  background-position: center left calc(0.4em + 0.1875rem);
+  padding-left: calc(1.6em + 0.75rem);
+  padding-right: 0.75rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 0;
+  padding-left: 0.5rem;
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-right: 0.5rem;
+  padding-left: 0;
+}

@@ -1,0 +1,54 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1280px
+);
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$theme-colors: (
+    "blue": $blue,
+    "indigo": $indigo,
+    "purple": $purple,
+    "pink": $pink,
+    "red": $red,
+    "orange": $orange,
+    "yellow": $yellow,
+    "green": $green,
+    "teal": $teal,
+    "cyan": $cyan,
+    "tomato": tomato,
+    "firstColor": #0c2e8a,
+    "secondColor": #50d8af,
+    "gold": gold,
+    "gray-50": #fdfdfd,
+    "gray-100": #f8f9fa,
+    "gray-150": #f5f5f5,
+    "gray-200": #e9ecef,
+    "gray-300": #dee2e6,
+    "gray-400": #ced4da,
+    "gray-500": #adb5bd,
+    "gray-600": #6c757d,
+    "gray-700": #495057,
+    "gray-800": #343a40,
+    "gray-900": #212529
+);

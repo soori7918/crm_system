@@ -1,0 +1,142 @@
+.rounded-1 {
+  border-radius: 0.5rem;
+}
+
+.rounded-2 {
+  border-radius: 0.75rem;
+}
+
+.rounded-3 {
+  border-radius: 1rem;
+}
+
+.rounded-4 {
+  border-radius: 1.5rem;
+}
+
+.rounded-5 {
+  border-radius: 2rem;
+}
+.border-bottom-dashed {
+  border-bottom-style: dashed !important;
+}
+.border-top-dashed {
+  border-top-style: dashed !important;
+}
+.border-right-dashed {
+  border-right-style: dashed !important;
+}
+.border-left-dashed {
+  border-left-style: dashed !important;
+}
+.border-dashed {
+  border-style: dashed !important;
+}
+.border-2 {
+  border-width: 2px !important;
+}
+.border-3 {
+  border-width: 3px !important;
+}
+.border-4 {
+  border-width: 4px !important;
+}
+.border-5 {
+  border-width: 5px !important;
+}
+.border-10 {
+  border-width: 10px !important;
+}
+.border-15 {
+  border-width: 15px !important;
+}
+.border-20 {
+  border-width: 20px !important;
+}
+
+.shadow-sm-hover {
+  transition: box-shadow ease 0.2s;
+  &:hover {
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+}
+
+.shadow-md-hover {
+  transition: box-shadow ease 0.2s;
+  &:hover {
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+.shadow-hover {
+  transition: box-shadow ease 0.2s;
+  &:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+.shadow-lg-hover {
+  transition: box-shadow ease 0.2s;
+  &:hover {
+    box-shadow: 0 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+}
+
+
+.dir-ltr {
+	direction: ltr !important;
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.btn-animated {
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  -o-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+@each $color, $value in $theme-colors {
+  .bg-light-right-gradient-#{$color} {
+    background: linear-gradient(to right,$value 0,lighten($value, 15%) 100%);
+  }
+  .bg-light-left-gradient-#{$color} {
+    background: linear-gradient(to left,$value 0,lighten($value, 15%) 100%);
+  }
+  .bg-light-top-gradient-#{$color} {
+    background: linear-gradient(to top,$value 0,lighten($value, 10%) 100%);
+  }
+  .bg-light-bottom-gradient-#{$color} {
+    background: linear-gradient(to bottom,$value 0,lighten($value, 10%) 100%);
+  }
+  .bg-dark-right-gradient-#{$color} {
+    background: linear-gradient(to right,$value 0,darken($value, 10%) 100%);
+  }
+  .bg-dark-left-gradient-#{$color} {
+    background: linear-gradient(to left,$value 0,darken($value, 10%) 100%);
+  }
+  .bg-dark-top-gradient-#{$color} {
+    background: linear-gradient(to top,$value 0,darken($value, 10%) 100%);
+  }
+  .bg-dark-bottom-gradient-#{$color} {
+    background: linear-gradient(to bottom,$value 0,darken($value, 10%) 100%);
+  }
+}
+
+
+.inner-shadow-y {
+  -webkit-box-shadow: 0 10px 15px -10px rgba(0,0,0,0.3) inset, 0 -10px 15px -10px rgba(0,0,0,0.3) inset;
+  -moz-box-shadow: 0 10px 15px -10px rgba(0,0,0,0.3) inset, 0 -10px 15px -10px rgba(0,0,0,0.3) inset;
+  box-shadow: 0 10px 15px -10px rgba(0,0,0,0.3) inset, 0 -10px 15px -10px rgba(0,0,0,0.3) inset;
+}
+.inner-shadow-x {
+  -webkit-box-shadow: 10px 0 15px -10px rgba(0,0,0,0.3) inset, -10px 0 15px -10px rgba(0,0,0,0.3) inset;
+  -moz-box-shadow: 10px 0 15px -10px rgba(0,0,0,0.3) inset, -10px 0 15px -10px rgba(0,0,0,0.3) inset;
+  box-shadow: 10px 0 15px -10px rgba(0,0,0,0.3) inset, -10px 0 15px -10px rgba(0,0,0,0.3) inset;
+}

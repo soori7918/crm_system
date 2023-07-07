@@ -1,0 +1,311 @@
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~admin-lte/dist/css/adminlte.css";
+@import "../packages/fontawesome5-pro/css/all.css";
+@import "./icnos";
+@import "./bootstrap4-rtl";
+@import "./bootstrap-improvement";
+@import "~bootstrap-select/dist/css/bootstrap-select.min.css";
+@import "./custom-style.css";
+
+@media (min-width: 991.98px) {
+    body:not(.sidebar-mini-md) .content-wrapper,
+    body:not(.sidebar-mini-md) .main-footer,
+    body:not(.sidebar-mini-md) .main-header {
+        transition: margin-right 0.3s ease-in-out;
+        margin-right: 250px;
+        margin-left: 0;
+    }
+    .sidebar-collapse .content-wrapper,
+    .sidebar-collapse .main-footer,
+    .sidebar-collapse .main-header {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 0 !important;
+        margin-right: 4.6rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-sidebar,
+    .main-sidebar:before {
+        margin-left: 0;
+        margin-right: -250px;
+    }
+    .sidebar-open .main-sidebar,
+    .sidebar-open .main-sidebar:before {
+        margin-right: 0;
+    }
+}
+a:hover {
+    text-decoration: none;
+}
+.dir-ltr {
+    direction: ltr !important;
+}
+.dir-rtl {
+    direction: rtl !important;
+}
+.brand-link .brand-image {
+    transition: margin ease 0.2s;
+    float: right;
+    margin-right: .8rem;
+    margin-left: .5rem;
+}
+.user-panel .image {
+padding-left: 0;
+padding-right: 0.8rem;
+}
+.nav-sidebar > .nav-item .nav-icon {
+margin-left: .2rem;
+margin-right: 0;
+}
+.nav-sidebar .nav-link > p > .left {
+position: absolute;
+left: 1rem;
+top: 12px;
+}
+.nav-sidebar .menu-open > .nav-link .left {
+transform: rotate(90deg);
+}
+.nav-sidebar .nav-item > .nav-link .left {
+transition: transform ease-in-out 0.3s;
+}
+
+.small-box .icon > i {
+    left: 10px;
+    right: auto;
+    }
+    
+    .main-sidebar {
+    right: 0;
+    left: auto;
+    }
+    .sidebar .nav-sidebar .nav-treeview {
+        transition: padding ease 0.2s;
+    }
+    .sidebar-collapse .main-sidebar .sidebar .nav-sidebar .nav-treeview{
+        padding-right: 0;
+    }
+    .main-sidebar .sidebar .nav-sidebar .nav-treeview,
+    .main-sidebar:hover .sidebar .nav-sidebar .nav-treeview {
+        padding-right: 20px;
+    }
+    
+    .main-sidebar, .main-sidebar:before {
+    -webkit-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, width 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, width 0.3s ease-in-out;
+    }
+    
+    .navbar-expand .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    }
+    
+    .navbar-badge {
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    font-size: .6rem;
+    font-weight: 500;
+    padding: 2px;
+    }
+    
+    .control-sidebar, .control-sidebar:before {
+    left: -250px;
+    right: auto;
+    transition: left .3s ease-in-out;
+    }
+    
+    .control-sidebar-slide-open .control-sidebar, .control-sidebar-slide-open .control-sidebar:before {
+    left: 0;
+    right: auto;
+    }
+    .dropdown-menu-lg {
+    min-width: 280px;
+    max-width: 300px;
+    padding: 0;
+    }
+    
+    .breadcrumb-item + .breadcrumb-item {
+    padding-right: 0.5rem;
+    padding-left: 0;
+    }
+    
+    .breadcrumb-item + .breadcrumb-item::before {
+    padding-left: 0.5rem;
+    padding-right: 0;
+    }
+    
+.rounded-1 {
+    border-radius: 0.5rem;
+}
+
+.rounded-2 {
+    border-radius: 0.75rem;
+}
+
+.rounded-3 {
+    border-radius: 1rem;
+}
+
+.rounded-4 {
+    border-radius: 1.5rem;
+}
+
+.rounded-5 {
+    border-radius: 2rem;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.snackbar {
+    position: fixed;
+    z-index: 1111;
+    bottom: 0;
+    opacity: 0;
+    left: 30px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 17px;
+    transition: all ease 0.5s;
+    .closeSnackbar {
+        background: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+    .closeSnackbar:hover {
+        background: rgba(0, 0, 0, 0.2);
+    }
+}
+
+.snackbar.show {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.level-0 {
+    padding-right: 0.75rem !important;
+}
+.level-1 {
+    padding-right: 3rem !important;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 2rem;
+        top: calc(50% - 2px);
+    }
+}
+.level-2 {
+    padding-right: 5rem !important;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 4rem;
+        top: calc(50% - 2px);
+    }
+}
+.level-3 {
+    padding-right: 7rem !important;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 6rem;
+        top: calc(50% - 2px);
+    }
+}
+.level-4 {
+    padding-right: 9rem !important;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 8rem;
+        top: calc(50% - 2px);
+    }
+}
+.level-5 {
+    padding-right: 11rem !important;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        height: 4px;
+        background: rgba(0, 0, 0, 0.1);
+        width: 10rem;
+        top: calc(50% - 2px);
+    }
+}
+
+[data-toggle="collapse"] .collapse-icon {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+[data-toggle="collapse"][aria-expanded="true"] .collapse-icon {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+// .bg-png-pattern {
+//     background-image: url(../images/png-bg.jpg);
+//     background-repeat: repeat;
+//     background-size: 10px;
+// }
+.container-with-hover {
+    position: relative;
+    .overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        background: rgba(darken($primary, 50%), 0.6);
+        opacity: 0;
+    }
+    &:hover .overlay {
+        opacity: 1;
+    }
+}
+
+.bootstrap-select .dropdown-toggle .filter-option {
+    text-align: right !important;
+}

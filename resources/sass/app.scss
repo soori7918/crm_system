@@ -1,0 +1,25 @@
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "../packages/fontawesome5-pro/css/all.css";
+@import "./icnos";
+@import "./bootstrap4-rtl";
+@import "./bootstrap-improvement";
+@import "./custom-style.css";
+@import "~bootstrap-select/dist/css/bootstrap-select.min.css";
+
+.bdy {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.hover-bdy {
+    background-color: rgba(23, 97, 75, 0.5);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
